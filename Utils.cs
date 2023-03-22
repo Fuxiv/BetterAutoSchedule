@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 public class Utils
 {
-    static SQLiteConnection CreateConnection()
+    public static string ScheduleBeginning()
     {
-        SQLiteConnection sqlite_conn;
-        sqlite_conn = new SQLiteConnection("Data Source=database.db;Version=3;New=True;Compress=True;");
-        return sqlite_conn;
+        string scheduleBeginning = File.ReadAllText("C:\\Users\\Jackobe\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\NewDirectory1\\beginning.txt");
+        return scheduleBeginning;
     }
 }

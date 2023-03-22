@@ -44,3 +44,5 @@ C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\C
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Npgsql.dll
