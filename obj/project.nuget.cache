@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "btZLSEZoJT655dZPhYh4pHO9mE5GQ3vJyX535qipDuXtZt5aZJHUErBwCi1JoihHUibSMniM+VNf/7L6CB4Mkw==",
+  "dgSpecHash": "yuri/gENHzfPYehQVMa79hqx3oKT8hs0fOd623xy61BOvhmsCb6Rr5lc17GeE38NCa/xDtAMeFHlLdHzRko0YQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jackobe\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jackobe\\.nuget\\packages\\ardalis.extensions\\0.9.4\\ardalis.extensions.0.9.4.nupkg.sha512",
+    "C:\\Users\\Jackobe\\.nuget\\packages\\ardalis.guardclauses\\3.2.0\\ardalis.guardclauses.3.2.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\Jackobe\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
@@ -30,6 +33,7 @@
     "C:\\Users\\Jackobe\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jackobe\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\Jackobe\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []

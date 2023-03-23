@@ -35,16 +35,26 @@ public class Utils
             return stopTimeBase + random + "  ";
         }
     }
-    public static string ArrivalDiff(short line, short trip, int id, int random)
+    public static string ArrivalDiff(int random)
     {
         if (random<10)
         {
             string randomString = '0' + random.ToString();
-            return "00:00:" + randomString;
+            return "00:00:" + randomString + "  ";
         }
         else
         {
-            return "00:00:" + random;
+            return "00:00:" + random + "  ";
         }
+    }
+    public static string DepartureTime(short line, short trip, int id, int random)
+    {
+            string stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6); 
+            return stopTimeBase + random + "  ";
+    }
+
+    public static string DepartureDiff(int random)
+    {
+        return "00:00:" + random + "  ";
     }
 }

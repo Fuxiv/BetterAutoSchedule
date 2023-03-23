@@ -46,3 +46,6 @@ C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleA
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Ardalis.Extensions.dll
+C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Ardalis.GuardClauses.dll
+C:\Users\Jackobe\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\JetBrains.Annotations.dll

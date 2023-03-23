@@ -1,6 +1,18 @@
 ﻿using ConsoleApp1;
 
-short line = 813;
-short trip = 101;
+short line = short.Parse(Console.ReadLine());
+short trip = short.Parse(Console.ReadLine());
 var scheduleWriter = new ScheduleWriter();
-scheduleWriter.WriteScheduleToFile(22,"03", line,trip);
+
+for (int i = trip; i > 0; i++)
+    {
+        try
+        {
+        scheduleWriter.WriteScheduleToFile(22,"03", line,(short)i);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            i = -1;
+        }
+    }

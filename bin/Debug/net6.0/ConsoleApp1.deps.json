@@ -8,12 +8,36 @@
     ".NETCoreApp,Version=v6.0": {
       "ConsoleApp1/1.0.0": {
         "dependencies": {
+          "Ardalis.Extensions": "0.9.4",
           "Npgsql": "8.0.0-preview.2",
           "SQLite": "3.13.0",
           "System.Data.SQLite": "1.0.117"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
+        }
+      },
+      "Ardalis.Extensions/0.9.4": {
+        "dependencies": {
+          "Ardalis.GuardClauses": "3.2.0",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Ardalis.Extensions.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
+        }
+      },
+      "Ardalis.GuardClauses/3.2.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ardalis.GuardClauses.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
         }
       },
       "EntityFramework/6.4.4": {
@@ -32,6 +56,14 @@
           "lib/netstandard2.1/EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.1.0.0",
+            "fileVersion": "2021.1.0.0"
           }
         }
       },
@@ -302,6 +334,7 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Json/5.0.2": {},
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
@@ -329,12 +362,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Ardalis.Extensions/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5JDKpMiEsxbz9N1yynsMFc2rBXDQ5iHLockW8lxahqlj9B5gxbENTAXBY2Jswp4vcGG+cNQxv81KrUqd4mXQSA==",
+      "path": "ardalis.extensions/0.9.4",
+      "hashPath": "ardalis.extensions.0.9.4.nupkg.sha512"
+    },
+    "Ardalis.GuardClauses/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ec1w0oVASqfHa9tPMcp8ZPKNqz/QDW20o7bY+OaFGbmZJJE2PbpCNb+ZJRWNoiwSuKrjD6/IIwq9Y8LIAYKvSw==",
+      "path": "ardalis.guardclauses/3.2.0",
+      "hashPath": "ardalis.guardclauses.3.2.0.nupkg.sha512"
+    },
     "EntityFramework/6.4.4": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "path": "jetbrains.annotations/2021.1.0",
+      "hashPath": "jetbrains.annotations.2021.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -510,6 +564,13 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "path": "system.text.json/5.0.2",
+      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
     },
     "System.Windows.Extensions/4.7.0": {
       "type": "package",

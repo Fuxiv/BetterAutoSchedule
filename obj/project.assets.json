@@ -2,6 +2,39 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Ardalis.Extensions/0.9.4": {
+        "type": "package",
+        "dependencies": {
+          "Ardalis.GuardClauses": "3.2.0",
+          "System.Text.Json": "5.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Ardalis.Extensions.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Ardalis.Extensions.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Ardalis.GuardClauses/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ardalis.GuardClauses.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -30,6 +63,19 @@
         "build": {
           "buildTransitive/netcoreapp3.0/EntityFramework.props": {},
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -444,6 +490,19 @@
           }
         }
       },
+      "System.Text.Json/5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Windows.Extensions/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -469,6 +528,38 @@
     }
   },
   "libraries": {
+    "Ardalis.Extensions/0.9.4": {
+      "sha512": "5JDKpMiEsxbz9N1yynsMFc2rBXDQ5iHLockW8lxahqlj9B5gxbENTAXBY2Jswp4vcGG+cNQxv81KrUqd4mXQSA==",
+      "type": "package",
+      "path": "ardalis.extensions/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ardalis.extensions.0.9.4.nupkg.sha512",
+        "ardalis.extensions.nuspec",
+        "lib/net6.0/Ardalis.Extensions.dll",
+        "lib/net6.0/Ardalis.Extensions.pdb"
+      ]
+    },
+    "Ardalis.GuardClauses/3.2.0": {
+      "sha512": "Ec1w0oVASqfHa9tPMcp8ZPKNqz/QDW20o7bY+OaFGbmZJJE2PbpCNb+ZJRWNoiwSuKrjD6/IIwq9Y8LIAYKvSw==",
+      "type": "package",
+      "path": "ardalis.guardclauses/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ardalis.guardclauses.3.2.0.nupkg.sha512",
+        "ardalis.guardclauses.nuspec",
+        "icon.png",
+        "lib/net40/Ardalis.GuardClauses.dll",
+        "lib/net40/Ardalis.GuardClauses.pdb",
+        "lib/net40/Ardalis.GuardClauses.xml",
+        "lib/netstandard2.0/Ardalis.GuardClauses.dll",
+        "lib/netstandard2.0/Ardalis.GuardClauses.pdb",
+        "lib/netstandard2.0/Ardalis.GuardClauses.xml"
+      ]
+    },
     "EntityFramework/6.4.4": {
       "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "type": "package",
@@ -524,6 +615,28 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "sha512": "n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "type": "package",
+      "path": "jetbrains.annotations/2021.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2021.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -1384,6 +1497,28 @@
         "version.txt"
       ]
     },
+    "System.Text.Json/5.0.2": {
+      "sha512": "I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
@@ -1408,6 +1543,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Ardalis.Extensions >= 0.9.4",
       "Npgsql >= 8.0.0-preview.2",
       "SQLite >= 3.13.0",
       "System.Data.SQLite >= 1.0.117"
@@ -1452,6 +1588,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Ardalis.Extensions": {
+            "target": "Package",
+            "version": "[0.9.4, )"
+          },
           "Npgsql": {
             "target": "Package",
             "version": "[8.0.0-preview.2, )"
