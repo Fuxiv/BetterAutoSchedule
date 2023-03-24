@@ -1,18 +1,10 @@
-﻿using Npgsql.Internal.TypeHandlers.GeometricHandlers;
-
-namespace ConsoleApp1;
-using System;
-using System.Collections.Generic;
-using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ConsoleApp1;
 
 public class Utils
 {
     public static string ScheduleBeginning()
     {
-        string scheduleBeginning = File.ReadAllText("C:\\Users\\Jackobe\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\NewDirectory1\\beginning.txt");
+        var scheduleBeginning = File.ReadAllText("C:\\Users\\Jackobe\\RiderProjects\\ConsoleApp1\\ConsoleApp1\\NewDirectory1\\beginning.txt");
         return scheduleBeginning;
     }
 
@@ -25,32 +17,32 @@ public class Utils
     {
         if (random < 10)
         {
-            string randomString = '0' + random.ToString();
-            string stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6); 
+            var randomString = '0' + random.ToString();
+            var stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6);
             return stopTimeBase + randomString + "  ";
         }
         else
         {
-            string stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6); 
+            var stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6);
             return stopTimeBase + random + "  ";
         }
     }
+
     public static string ArrivalDiff(int random)
     {
-        if (random<10)
+        if (random < 10)
         {
-            string randomString = '0' + random.ToString();
+            var randomString = '0' + random.ToString();
             return "00:00:" + randomString + "  ";
         }
-        else
-        {
-            return "00:00:" + random + "  ";
-        }
+
+        return "00:00:" + random + "  ";
     }
+
     public static string DepartureTime(short line, short trip, int id, int random)
     {
-            string stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6); 
-            return stopTimeBase + random + "  ";
+        var stopTimeBase = DatabaseQueries.GetStopTime(line, trip, id)!.Substring(0, 6);
+        return stopTimeBase + random + "  ";
     }
 
     public static string DepartureDiff(int random)
